@@ -1,21 +1,30 @@
+import { useState } from "react";
+
 function Home (){
 
     return (
 
         <>
+        <div className="container pt-2">
+            <div className="card">
+                <div className="card-title pt-2 card-header">
+                <h1>SEJA BEM VINDO A PLATAFORMA</h1>
 
-        <div className="card"></div>
-            <div className="container pt-2">
-                <div className="card-title p-2 border-bottom card-hearder ">
+                <div className="row"></div>
+
+
+
                 </div>
-                <div className="card-body"> </div>
-                <div className="row"> </div>
 
-                <div className="col sm-12 col-md-6 col-lg-6"> </div>
-                <label className="label-control"><b>Seja bem vindo a esta plataforma!</b></label>
-             </div>     
+
+            </div>
+
+
+        </div>
         </>
     )
 }
+
+   
 
 export default Home;

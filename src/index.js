@@ -1,40 +1,55 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "./index.css";
+import NavBarComponents from './components/NavBarComponents';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import * as React from "react";
+import * as ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
-import NavBarComponents from './components/NavBarComponents';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/exercises/Home';
+import Contato from './components/exercises/Contato';
+import SobreNos from './components/exercises/SobreNos';
+import PrincipalPage from './pages/PrincipalPage';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <PrincipalPage/>
   },
 
   {
     path: "/Home",
-    element: <Home />,
+    element: <Home/>
   },
 
   {
     path: "/Contato",
-    element: <Home />,
+    element: <Contato/>
   },
+
+  {
+    path: "/SobreNos",
+    element: <SobreNos/>
+  }
+
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <NavBarComponents/>
     <RouterProvider router={router} />
-  </React.StrictMode>
+    </React.StrictMode>
 );
+
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
