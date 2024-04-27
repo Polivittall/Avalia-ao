@@ -11,11 +11,15 @@ return (
 
                 <div className="row"></div>
 
-                <div className="col-sm-12 col-md-6 col-lg-6">
-                    <p> Olá, nós somos a empresa Pocket!!
-                        Estamos no mercado a um curto tempo, desde 2007 mais especificamente.
-                        Somos uma empresa onde nosso foco principal é te garantir a melhor experiência possível. Queremos inspirar nosso ecossistema a se comprometer com o meio ambiente, incentivar o empreendedorismo e o empoderamento feminino.
-                        Liderar um modelo de gestão que gere resultado econômico com baixo impacto ambiental e responsabilidade social :). 
+                <div className="col-sm-12 col-md-12 col-lg-12">
+                    <p> Olá, quero que você possa me conhecer um pouco melhor...
+                        Meu nome é Poliana Aparecida Brigo Vital, tenho 17 anos e sou de Rio Claro - SP. Moro em Santa Bárbara d'Oeste desde 16 dez. 2021, mais especificadamente :).
+                        Conhecam agora um pouco de minha rotina: pela manhã eu trabalho como estágiaria no setor comercial/administrativo, pela tarde vou para a escola deixar todos meus neurônios, pois faço técnico em administração integrado ao médio. Por fim, pela noite damos uma variada, 
+                        de segunda e quarta nós nos arriscamos em um novo curso! Curso de desenvolvimento de software para web e celular. De terça tenho curso de inglês para ficar bilíngue e, mais tarde, poliglota. 
+                        Nas quintas e nas sextas, são mais estudos, pois desejamos estar na faculdade daqui 1 ano. Minha rotina não para, mas adoro isso. 
+                        Aos sábados, é meu descanso? Nãoo, de manhã eu trabalho e a tarde é livre para estudar, e finalmente é domingo. No perído da manhã preparo marmitas para comer durante a semana, pois como vemos, tempo não nos resta. De tarde estudamos quando temos provas e de noite vamos à igreja. 
+                        Eu, Poliana, adoro fazer bolos, por isso um dos meus hobby e cozinhar S2. Sei jogar vôlei; adoro dançar ballet; já fiz aulas de natação que não durou muito por causa de imunidade baixa. Fazia academia - quando eu tinha tempo - e como todo ser humano, adoro ler livros de vários gêneros, mas meu preferido sempre será romace. 
+
                         
                     </p>
 
