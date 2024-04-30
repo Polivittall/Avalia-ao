@@ -16,7 +16,7 @@ import Home from './components/exercises/Home';
 import Contato from './components/exercises/Contato';
 import SobreNos from './components/exercises/SobreNos';
 import PrincipalPage from './pages/PrincipalPage';
-
+import Login from './components/exercises/login';
 
 const router = createBrowserRouter([
   {
@@ -37,7 +37,14 @@ const router = createBrowserRouter([
   {
     path: "/SobreNos",
     element: <SobreNos/>
+  },
+
+  {
+    path: "/Login",
+    element: <Login/>
   }
+
+
 
 ]);
 
